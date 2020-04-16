@@ -93,8 +93,26 @@ const routes = [
           name:'homepage',
           component:() => import('../views/homepage/homepage')
         },
-       
-        
+        {
+            path:'adminIndex',
+            name:'adminIndex',
+            component:() => import('../views/adminIndex/adminIndex')
+        },
+        {
+            path:'adminInfo',
+            name:'adminInfo',
+            component:() => import('../views/adminInfo/adminInfo')
+        },
+        {
+            path:'adminStudent',
+            name:'adminStudent',
+            component:() => import('../views/adminStudent/adminStudent')
+        },
+        {
+            path:'adminTeacher',
+            name:'adminTeacher',
+            component:() => import('../views/adminTeacher/adminTeacher')
+        },
       ]
     }
 ];

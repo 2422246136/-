@@ -16,7 +16,7 @@
                         <MenuItem name="1-1" to="/index/homepage">
                            <i class="iconfont problemTracking-gongyingshangzhifu"></i>
                                 首页
-                            </MenuItem>
+                        </MenuItem>
                             <MenuItem name="1-2" to="/index/student">
                             <i class="iconfont problemTracking-gongyingshangguanli-"></i>
                                 个人信息
@@ -30,7 +30,6 @@
                             <span>查看成绩</span>
                             </MenuItem>
                     </Submenu>
-<!-- <i class="iconfont problemTstore.store.==1racking-gongyingshangzhifu"></i> -->
                         <Submenu v-if="this.role.role==2" name="2">
                             <template slot="title">
                             <Icon type="ios-analytics" />
@@ -59,19 +58,19 @@
                             <Icon type="ios-analytics" />
                              管理员管理
                         </template>
-                        <MenuItem name="3-1" to="/index/homepage">
+                        <MenuItem name="3-1" to="/index/adminIndex">
                            <i class="iconfont problemTracking-gongyingshangzhifu"></i>
                                 首页
                             </MenuItem>
-                    <MenuItem name="3-2" to="">
+                    <MenuItem name="3-2" to="/index/adminInfo">
                         <i class="iconfont problemTracking-gongyingshangguanli-"></i>
                         <span>个人信息</span>
                     </MenuItem>
-                    <MenuItem name="3-3" to="">
+                    <MenuItem name="3-3" to="/index/adminStudent">
                             <i class="iconfont problemTracking-wuliaoguanli-"></i>
                             查看学生
                             </MenuItem>
-                    <MenuItem name="3-4" to="">
+                    <MenuItem name="3-4" to="/index/adminTeacher">
                         <i class="iconfont problemTracking-yonghuguanli"></i>
                         <span>查看教师</span>
                     </MenuItem>
